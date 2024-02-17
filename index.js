@@ -29,7 +29,9 @@ function scrollGuild() {
 
     const headerBottom = header.getBoundingClientRect().bottom;
     if (projectGuild.getBoundingClientRect().top <= headerBottom) {
-        titleGuild.style.opacity = "1";
+        setTimeout(() => {
+            titleGuild.style.opacity = "1";
+        }, 300);
     } else {
         titleGuild.style.opacity = "0";
     }
