@@ -8,4 +8,11 @@ $(document).ready(function () {
     $("#toggle-icon").click(function () {
         $("#menu-nav").slideToggle(200);
     });
+// slick
+    $('.post-wrapper').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        prevArrow: $('.prev-button'),
+        nextArrow: $('.next-button'),
+    });
 });
