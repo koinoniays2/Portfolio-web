@@ -32,7 +32,7 @@ section {width: 100%; position: relative; display: flex; flex-direction: column;
     background: linear-gradient(-45deg, #84fab0, #8fd3f4, #fbc2eb, #8fd3f4);
     background-size: 400% 400%; 
     animation: gradient 5s ease infinite;}
-#footer p {text-align: center; padding: 1.5rem 3rem;}
+#footer p {text-align: center; padding: 1.5rem 4rem;}
 /* 탑버튼 */
 #top-btn {z-index: 999; position: absolute; right: 1rem; top: 50%; transform: translateY(-50%);}
 #top-btn i {transform: rotate(-45deg); font-size: 4rem;}
