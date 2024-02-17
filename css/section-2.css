@@ -1,11 +1,17 @@
 #ask {height: 100vh;}
-#project > .title {width: 100%; transition: var(--font-transition);
-  font-size: 2rem; font-weight: bold; text-align: center; padding-top: 7rem; padding-bottom: 3.5rem;
+#project > .title {transition: var(--font-transition);
+  font-size: 2rem; font-weight: bold; text-align: center; padding-top: 4rem; padding-bottom: 1rem;
   position: sticky; top: 0; z-index: 10; background-color: #f6f6f6;}
-#project .project-content {display: flex; flex-direction: column; align-items: center;}
+#project > .title i {color: gray;}
 
-#project .project-title {text-align: center; font-size: 1.25rem; margin: 7rem 0;}
-#project .project-title > p:nth-child(2) {padding-bottom: 0.25rem; border-bottom: 2px solid lightblue;}
+#project .project-content {
+  display: flex; flex-direction: column; align-items: center;}
+
+/* 프로젝트 제목 */
+#project .project-title {display: flex; flex-direction: column;
+  align-items: center; font-size: 1.25rem; margin: 7rem 0;}
+#project .project-title > p:nth-child(2) {padding-bottom: 0.25rem;
+  border-bottom: 2px solid lightblue;}
 
 #project .summary {display: flex; flex-direction: column; align-items: center;}
 
@@ -17,8 +23,18 @@
   right:0.5rem; font-size:2em; cursor: pointer; z-index: 5;}
 .post-slider .button {color:lightblue;}
 .post-slider > p {text-align: center; padding: 1rem 0; font-size: 1.125rem;}
-.post-slider .post img {width: 100%; height: 360px; object-fit: cover;}
+.post-slider .post img {width: 100%; height: 360px; object-fit: cover; object-position: center;}
 .post-slider .post p {font-weight: bold;}
+#left-img {object-position: left;}
+
+.url {padding: 1.5rem 0;}
+.url i {color: darkblue;}
 @media screen and (min-width: 640px) {
   #project > .title {font-size: 3rem;}
 }
+
+/* 자바스크립트 */
+#project .title > p:nth-child(2), #project .title > p:nth-child(3) 
+{opacity: 0; font-weight: normal;
+  font-size: 1.25rem; color: darkblue; transition: opacity 0.5s ease;}
+#project .title > p:nth-child(3) {display: none;}

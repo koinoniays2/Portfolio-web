@@ -18,7 +18,7 @@ section {width: 100%; position: relative; display: flex; flex-direction: column;
 #header .container {padding: 0 1rem;}
 #header #logo-nav > #toggle-icon {cursor: pointer;}
 #header #logo-nav {display: flex; justify-content: space-between; align-items: center; padding: 1rem 0;}
-#header #menu-nav {display: none; padding: 1rem 0;}
+#header #menu-nav {display: none; padding-bottom: 1rem;}
 #header #menu-nav > ul {display: flex;}
 #header #menu-nav > ul > li {flex-grow: 1; text-align: center;}
 /* 미디어쿼리 640px */
