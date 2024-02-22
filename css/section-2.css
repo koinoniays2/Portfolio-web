@@ -29,6 +29,13 @@
 
 .url {padding: 1.5rem 0;}
 .url i {color: darkblue;}
+
+.project-desc {padding: 1rem 1rem; display: flex; flex-direction: column; align-items: center; justify-content: center;}
+.project-desc > div {width: 100%; height: 1px; border-bottom: 1px solid lightgray; padding: 1rem 0;}
+.desc-title {font-size: 1.5rem; padding: 1rem 0;}
+.desc-title > i {color: lightsteelblue; transform: rotate(45deg);}
+.project-desc > p u {color: gray;}
+
 @media screen and (min-width: 640px) {
   #project > .title {font-size: 3rem;}
 }

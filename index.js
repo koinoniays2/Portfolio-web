@@ -18,9 +18,9 @@ $(document).ready(function () {
 });
 
 window.addEventListener("load", () => {
-    window.addEventListener('scroll', scrollGuild);
+    window.addEventListener('scroll', scrollProject);
 })
-function scrollGuild() {
+function scrollProject() {
     const header = document.querySelector("#header");
     const projectGuild = document.querySelector("#project .project-1");
     const titleGuild = document.querySelector("#project .title > p:nth-child(2)");
@@ -31,7 +31,7 @@ function scrollGuild() {
     if (projectGuild.getBoundingClientRect().top <= headerBottom) {
         setTimeout(() => {
             titleGuild.style.opacity = "1";
-        }, 300);
+        }, 200);
     } else {
         titleGuild.style.opacity = "0";
     }
@@ -42,7 +42,7 @@ function scrollGuild() {
         test.style.display = "block";
         setTimeout(() => {
             test.style.opacity = "1";
-        }, 300);
+        }, 200);
     } else {
         test.style.opacity = "0";
         test.style.display = "none";
