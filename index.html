@@ -114,7 +114,7 @@
         <div class="title">
             <p><i class="fa-solid fa-link"></i><br />PROJECTS</p>
             <p>MapleStory : 고래 Guild</p>
-            <p>동서한약</p>
+            <p>ONDOG</p>
         </div>
         <div class="container">
             <article class="project-content project-1">
@@ -129,16 +129,44 @@
                     <p><i class="fa-regular fa-images"></i>  페이지 구성</p>
                     <div class="post-wrapper">
                         <div class="post">
-                        <img src="image/고래길드-main-1.svg" alt="고래길드"/>
-                        <p> ◾ 메인 페이지</p>
+                            <img src="image/고래길드-main-1.svg" alt="고래길드"/>
+                            <p> ◾ [메인 페이지]</p>
                         </div>
                         <div class="post">
-                        <img src="image/고래길드-main-2.svg" alt="고래길드"/>
-                        <p> ◾ 길드원 검색 & 닉네임 클릭 시 화면</p>
+                            <img src="image/고래길드-main-2.svg" alt="고래길드"/>
+                            <p> ◾ [길드원 검색 & 닉네임 클릭 시 화면]</p>
                         </div>
                         <div class="post">
-                        <img id="left-img" src="image/고래길드-mail.svg" alt="고래길드"/>
-                        <p> ◾ 메일 버튼 클릭 시 구현 화면</p>
+                            <img id="left-img" src="image/고래길드-mail.svg" alt="고래길드"/>
+                            <p> ◾ [메일 버튼 클릭 시 구현 화면]</p>
+                        </div>
+                        <div class="post">
+                            <img id="contain-img" src="image/고래길드-detail.svg" alt="고래길드"/>
+                            <p> ◾ [상세보기 클릭 시 캐릭터 스펙 디테일 전체화면]</p>
+                        </div>
+                        <div class="post">
+                            <img id="contain-img" src="image/고래길드-detail-stat.svg" alt="고래길드"/>
+                            <p> ◾ [상세보기 클릭 시 캐릭터 스펙 디테일 화면]<br />스탯 부분</p>
+                        </div>
+                        <div class="post">
+                            <img id="contain-img" src="image/고래길드-detail-ability,hyper.svg" alt="고래길드"/>
+                            <p> ◾ [상세보기 클릭 시 캐릭터 스펙 디테일 화면]<br />어빌리티, 하이퍼스탯 부분</p>
+                        </div>
+                        <div class="post">
+                            <img id="contain-img" src="image/고래길드-detail-title,equipment.png" alt="고래길드"/>
+                            <p> ◾ [상세보기 클릭 시 캐릭터 스펙 디테일 화면]<br />칭호, 장비 호버 화면</p>
+                        </div>
+                        <div class="post">
+                            <img id="contain-img" src="image/고래길드-detail-pet,simbol.svg" alt="고래길드"/>
+                            <p> ◾ [상세보기 클릭 시 캐릭터 스펙 디테일 화면]<br />펫 호버, 심볼 부분</p>
+                        </div>
+                        <div class="post">
+                            <img id="contain-img" src="image/고래길드-detail-skill.svg" alt="고래길드"/>
+                            <p> ◾ [상세보기 클릭 시 캐릭터 스펙 디테일 화면]<br />스킬 호버 화면</p>
+                        </div>
+                        <div class="post">
+                            <img id="contain-img" src="image/고래길드-detail-union.svg" alt="고래길드"/>
+                            <p> ◾ [상세보기 클릭 시 캐릭터 스펙 디테일 화면]<br />canva로 구현 한 유니온 화면</p>
                         </div>
                     </div>
                     </div>
@@ -170,12 +198,28 @@
                         </p>
                         <div></div>
                         <p class="desc-title">Meaning <i class="fa-solid fa-thumbtack"></i></p>
+                        <p>React로 처음 프로젝트를 진행해 본 경험은 정말 의미 있는 시간이었습니다.<br />
+                        그중 인상 깊었던 경험은 React의 강력한 기능들 중<b>React Hooks</b>를 이용해 효율적으로 상태관리를 하는 것이었습니다.<br />
+                        메일 보내기 기능을 구현할 때 <b>React Hook Form</b> 라이브러리의 <b>useForm</b> 훅을 사용하여 Form 데이터의 유효성 검사를 간편하게 처리할 수 있었던 점과<br />
+                        API와 상호작용하기 위해 썼던 <b>React Query</b> 라이브러리의 <b>useQuery</b> 훅으로 데이터를 가져와 사용할 수 있었던 것이 가장 인상 깊었습니다.<br />
+                        넥슨 메이플스토리 API는 캐릭터의 정보를 가져오기 위해 해당 캐릭터의 고유 id를 API에서 가져온 후, 그 고유 id를 다른 API에 전달하여 쓰도록 되어있는데<br />
+                        이 부분에서 어려움을 겪었으나 라우팅을 관리하기 위한 라이브러리인 <b>React Router</b>에서 제공하는 <b>Link</b> 컴포넌트를 사용해 URL에 고유 id를 전달하고,<br />
+                        <b>useParams</b> 훅을 이용해 URL에 전달된 데이터를 추출하여 <b>useQurey</b> 훅의 기능인 쿼리 키에 값을 동적으로 설정하여 API 요청을 보내는 것으로 해결하였습니다.<br />
+                        덕분에 이번 프로젝트는 React의 개념을 다시 한번 잡을 수 있었던 계기가 되었습니다.<br /><br />
+
+                        다음으로 <b>TailwindCSS</b>와 React를 함께 사용한 경험은 매우 편리하였고 생산성을 높여주었습니다.<br />
+                        CSS 파일을 작성하지 않고 클래스를 사용하여 원하는 디자인 요소를 적용할 수 있었던 점과,
+                        반응형 웹을 구현할 때 sm, md, lg, xl 등의 키워드를 통해 간편하게 적용할 수 있었던 점이 저에게는 굉장히 매력적으로 느껴졌습니다.
+                        <br /><br />
+                        이러한 경험을 통해 React에 대한 자신감이 높아졌으며, 앞으로의 프로젝트에서도 보다 더 효율적이고 혁신적인 솔루션을 구현할 수 있을 것이라고 기대하고 있습니다.<br />
+                        React는 지속적으로 발전하고 있는 기술이기 때문에 끊임없는 학습과 개선이 필요하지만, 그만큼 새로운 도전과 발견이 기다리고 있음을 알게 되었습니다.
+                        </p>
                     </div>
                 </article>
                 <article class="project-content project-2">
                 <div class="project-title">
                     <p>- 개인 프로젝트 2 -</p>
-                    <P>동서한약</P>
+                    <P>ONDOG</P>
                 </div>
             </article>
         </div>
@@ -196,6 +240,6 @@
             <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
         </nav>
     </footer>
-    <script src="index.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>

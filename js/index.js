@@ -24,8 +24,8 @@ function scrollProject() {
     const header = document.querySelector("#header");
     const projectGuild = document.querySelector("#project .project-1");
     const titleGuild = document.querySelector("#project .title > p:nth-child(2)");
-    const projectTest = document.querySelector("#project .project-2");
-    const test = document.querySelector("#project .title > p:nth-child(3)")
+    const projectOndog = document.querySelector("#project .project-2");
+    const titleOndog = document.querySelector("#project .title > p:nth-child(3)")
 
     const headerBottom = header.getBoundingClientRect().bottom;
     if (projectGuild.getBoundingClientRect().top <= headerBottom) {
@@ -36,16 +36,16 @@ function scrollProject() {
         titleGuild.style.opacity = "0";
     }
 
-    if (projectTest.getBoundingClientRect().top <= headerBottom) {
+    if (projectOndog.getBoundingClientRect().top <= headerBottom) {
         titleGuild.style.opacity = "0";
         titleGuild.style.display = "none";
-        test.style.display = "block";
+        titleOndog.style.display = "block";
         setTimeout(() => {
-            test.style.opacity = "1";
+            titleOndog.style.opacity = "1";
         }, 200);
     } else {
-        test.style.opacity = "0";
-        test.style.display = "none";
+        titleOndog.style.opacity = "0";
+        titleOndog.style.display = "none";
         titleGuild.style.display = "block";
     }
 }
