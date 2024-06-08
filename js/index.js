@@ -16,7 +16,7 @@ $(document).ready(function () {
         nextArrow: $('.next-button'),
     });
 });
-
+// 프로젝트 제목
 window.addEventListener("load", () => {
     window.addEventListener('scroll', scrollProject);
 })

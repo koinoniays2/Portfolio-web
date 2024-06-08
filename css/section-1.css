@@ -3,7 +3,7 @@
     0% {background-position: 0% 50%;}
     50% {background-position: 100% 50%;}
     100% {background-position: 0% 50%;}}
-/* 섹션-1 컨텐트-1 */
+/* 섹션-1 왼쪽(위) */
 #intro .intro-content-1 {
     background: linear-gradient(-45deg, #84fab0, #8fd3f4, #fbc2eb, #8fd3f4);
     background-size: 400% 400%; 
@@ -13,18 +13,19 @@
     padding: 0 1rem;}
 #intro .intro-content-1 .name {font-size: 3rem; font-weight: bold; transition: var(--font-transition);}
 #intro .intro-content-1 .self {font-size: 1.25rem; padding: 2rem 0; transition: var(--font-transition);}
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 768px) {
     #intro {flex-direction: row;}
     #intro .intro-content {flex-basis: 50%;}
     #intro .intro-content-1 {height:100vh; display: flex; flex-direction: column; align-items: end; justify-content: center;}}
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1024px) {
     #intro .intro-content-1 .name {font-size: 4rem;}
     #intro .intro-content-1 .self {font-size: 1.5rem;}
 }
 @media screen and (min-width: 1240px) {
     #intro .intro-content-1 .name {font-size: 6rem;}
 }
-/* 섹션-1 컨텐트-2 */
+
+/* 섹션-1 오른쪽(아래) */
 .content-container {padding: 1rem 1rem; display: flex; flex-direction: column; align-items: center;}
 .content-container > p {font-size: 2rem; padding-bottom: 0.5rem; margin-bottom: 0.5rem; border-bottom: 2px solid lightblue;}
 /* about */
@@ -35,9 +36,8 @@
 .tech-img {display: flex; flex-direction: column; justify-content: center; text-align: center;}
 .tech-img img {object-fit: contain; height: 2rem; margin: 0.5rem 0;}
 a[href="https://github.com/koinoniays2"] { margin-left: 0.5rem; margin-bottom: 0.5rem;}
-
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 768px) {
     .intro-content-2 {padding-top: 6rem;}
-    .about-text p:nth-child(1) { font-size: 1.25rem}
+    .about-text p:nth-child(1) {font-size: 1.25rem}
     .about p {font-size: 1.125rem;}
 }
