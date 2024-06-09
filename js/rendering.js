@@ -61,3 +61,157 @@ otherImage.forEach((item) => {
     image.alt = item.alt;
     techBox[1].appendChild(image);
 });
+
+const project = [
+    {
+        "projectOrder" : "- 개인 프로젝트 1 -",
+        "projectTitle" : "MapleStory : 고래 Guild",
+        "projectCarouselImage" : [
+            { "src" : "image/고래길드-main-1.png", "desc" : "◾ [메인 페이지]<br /> 1/10"},
+            { "src" : "image/고래길드-main-2.svg", "desc" : "◾ [길드원 검색 & 닉네임 클릭 시 화면]<br /> 2/10"},
+            { "src" : "image/고래길드-mail.png", "desc" : "◾ [메일 버튼 클릭 시 구현 화면]<br /> 3/10"},
+            { "src" : "image/고래길드-detail.svg", "desc" : "◾ [상세보기 클릭 시 캐릭터 스펙 디테일 전체화면]<br /> 4/10"},
+            { "src" : "image/고래길드-detail-stat.svg", "desc" : "◾ [상세보기 클릭 시 캐릭터 스펙 디테일 화면]<br />스탯 부분<br /> 5/10"},
+            { "src" : "image/고래길드-detail-ability,hyper.svg", "desc" : "◾ [상세보기 클릭 시 캐릭터 스펙 디테일 화면]<br />어빌리티, 하이퍼스탯 부분<br /> 6/10"},
+            { "src" : "image/고래길드-detail-title,equipment.png", "desc" : "◾ [상세보기 클릭 시 캐릭터 스펙 디테일 화면]<br />칭호, 장비 호버 화면<br /> 7/10"},
+            { "src" : "image/고래길드-detail-pet,simbol.svg", "desc" : "◾ [상세보기 클릭 시 캐릭터 스펙 디테일 화면]<br />펫 호버, 심볼 부분<br /> 8/10"},
+            { "src" : "image/고래길드-detail-skill.svg", "desc" : "◾ [상세보기 클릭 시 캐릭터 스펙 디테일 화면]<br />스킬 호버 화면<br /> 9/10"},
+            { "src" : "image/고래길드-detail-union.svg", "desc" : " ◾ [상세보기 클릭 시 캐릭터 스펙 디테일 화면]<br />canvas로 구현 한 유니온 화면<br /> 10/10"},
+        ],
+        "carouselAlt" : "고래길드",
+        "projectUrl" : "https://guild-one.vercel.app/",
+        "projectSummary" : `<b>넥슨 공식 메이플스토리 API를 활용한 길드원 정보 검색 사이트</b>입니다.<br />
+                            <b>React</b> 라이브러리와 <b>TailwindCSS</b>를 사용하여 아이디어를 실현할 수 있었던 의미있는 1인 프로젝트였습니다.`,
+        "projectTechImage" : [
+            {
+                "src" : "https://camo.githubusercontent.com/c86d391bb5b58829613888b06fdde85634be0e4e87eca17817e511051de2e0da/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f52656163742d3631444146423f7374796c653d666c61742d737175617265266c6f676f3d7265616374266c6f676f436f6c6f723d7768697465",
+                "alt" : "react"
+            },{
+                "src" : "https://camo.githubusercontent.com/745921108801486cf05b0e607348fea607addf8594e4d7282ac3335db151dbfc/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5265616374253230486f6f6b253230466f726d2d2532334543353939302e7376673f7374796c653d666c61742d737175617265266c6f676f3d7265616374686f6f6b666f726d266c6f676f436f6c6f723d7768697465",
+                "alt" : "react-hook-form"
+            },{
+                "src" : "https://camo.githubusercontent.com/f071d9d118c66aeec7de44b5639c3912e0a586202ff5adedd55f352185733eab/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d526561637425323051756572792d4646343135343f7374796c653d666c61742d737175617265266c6f676f3d72656163742532307175657279266c6f676f436f6c6f723d7768697465",
+                "alt" : "react-query"
+            },{
+                "src" : "https://camo.githubusercontent.com/ea45f82c33786cda2cb45b5d4f9a47f721aa479ed0fc3e28a1893c168a39f03f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f52656163745f526f757465722d4341343234353f7374796c653d666c61742d737175617265266c6f676f3d72656163742d726f75746572266c6f676f436f6c6f723d7768697465",
+                "alt" : "react-router"
+            }
+        ],
+        "projectTech" : `
+                    ◾ 길드원 검색하여 상세정보 확인<br />
+                    ◾ 길드원 목록에서 닉네임 클릭으로 상세정보 확인<br />
+                    ◾ 장비, 하이퍼스탯, 어빌리티 프리셋 확인<br />
+                    ◾ 메일로 의견 보내기`,
+        "projectBackground" : `메이플스토리라는 게임에서 중요한 컨텐츠 중 하나는 "<b>길드</b>" 컨텐츠입니다.
+                        "<b>길드</b>"는 여러 플레이어가 함께 모여 협력하고 소통하는 단체를 말합니다.
+                        게임 내에서 유리한 위치에 있는, 소위 말해 <b>스펙(캐릭터의 능력치)이 높은 플레이어</b>가 길드 내에 많을수록 길드는 빠른 성장을 하게 되고
+                        높은 레벨의 "<b>노블레스 길드스킬</b>"을 사용할 수 있습니다. 이 스킬은 메이플스토리에서 몬스터를 잡을 때 중요한 부분을 차지합니다.
+                        그렇기 때문에 플레이어들은 <i><u><a href="https://maple.gg/" target="_blank">메이플GG</a></u></i>라는 전적검색 사이트를
+                        통해 길드를 검색하여 길드 구성원들의 스펙을 확인하고 길드 가입 여부를 결정합니다.<br /><br />
+                        길드를 가입하는 경로는 게임 내의 홍보를 보고 가입하는 경우도 있지만, 메이플인벤이라는 사이트에서 <b>길드 홍보글</b>을 보고 가입하는 경우가 많습니다.
+                        그래서 제가 소속된 고래 길드만의 사이트를 만들어 유저가 메이플GG 사이트에 들어가서 길드를 검색해야 하는 번거로움을 줄이고
+                        고래 길드에 대한 정보와 길드원들의 정보를 바로 볼 수 있도록 하여 보다 효율적인 <b>길드 홍보</b>를 위해 제작하였습니다.`,
+        "projectMeaning" : `React로 처음 프로젝트를 진행해 본 경험은 정말 의미 있는 시간이었습니다.
+                        그중 인상 깊었던 경험은 React의 기능들 중 <b>React Hooks</b>를 이용해 효율적으로 상태관리를 하는 것이었습니다.
+                        메일 보내기 기능을 구현할 때 <b>React Hook Form</b> 라이브러리의 <b>useForm</b> 훅을 사용하여 Form 데이터의 유효성 검사를 간편하게 처리할 수 있었던 점과
+                        API와 상호작용하기 위해 썼던 <b>React Query</b> 라이브러리의 <b>useQuery</b> 훅으로 데이터를 가져와 사용할 수 있었던 것이 가장 인상
+                        깊었습니다.
+                        <br /><br />
+                        넥슨 메이플스토리 API는 캐릭터의 정보를 가져오기 위해 해당 캐릭터의 고유 id를 API에서 가져온 후, 그 고유 id를 다른 API에 전달하여 쓰도록 되어있는데
+                        이 부분에서 어려움을 겪었으나 라우팅을 관리하기 위한 라이브러리인 <b>React Router</b>에서 제공하는 <b>Link</b> 컴포넌트를 사용해 URL에 고유
+                        id를 전달하고, <b>useParams</b> 훅을 이용해 URL에 전달된 데이터를 추출하여 <b>useQurey</b> 훅의 기능인 쿼리 키에 값을 동적으로 설정하여 API 요청을 보내는
+                        것으로 해결하였습니다. 덕분에 이번 프로젝트는 React의 개념을 다시 한번 잡을 수 있었던 계기가 되었습니다.
+                        <br /><br />
+                        다음으로 <b>TailwindCSS</b>와 React를 함께 사용한 경험은 매우 편리하였고 생산성을 높여주었습니다.
+                        CSS 파일을 작성하지 않고 클래스를 사용하여 원하는 디자인 요소를 적용할 수 있었던 점과,
+                        반응형 웹을 구현할 때 sm, md, lg, xl 등의 키워드를 통해 간편하게 적용할 수 있었던 점이 저에게는 굉장히 매력적으로 느껴졌습니다.
+                        <br /><br />
+                        이러한 경험을 통해 React에 대한 자신감이 높아졌으며, 앞으로의 프로젝트에서도 보다 더 효율적이고 혁신적인 솔루션을 구현할 수 있을 것이라고 기대하고 있습니다.
+                        React는 지속적으로 발전하고 있는 기술이기 때문에 끊임없는 학습과 개선이 필요하지만, 그만큼 새로운 도전과 발견이 기다리고 있음을 알게 되었습니다.`
+    }
+];
+
+
+function elementCreate({ tag, content, className, src, alt, id, href, target, textContent, parentElement }) {
+    const element = document.createElement(tag);
+    if (content) element.innerHTML = content;
+    if (className) element.className = className;
+    if (src) element.src = src;
+    if (alt) element.alt = alt;
+    if (id) element.id = id;
+    if (href) element.href = href;
+    if (target) element.target = target;
+    if (textContent) element.textContent = textContent;
+    if (parentElement) parentElement.appendChild(element);
+
+    return element;
+}
+
+// 프로젝트 전체 컨테이너
+const projectContainer = document.querySelector(".project-container");
+project.forEach((item, index) => {
+    // 프로젝트 단락
+    const article = elementCreate({ tag : "article", className : `project-content project-${index + 1}`})
+    
+    // 타이틀 div
+    const titleDiv = elementCreate({ tag: "div", className : "project-title", parentElement : article });
+    // 타이틀 순서, 타이틀
+    elementCreate({ tag: "p", content : item.projectOrder, parentElement : titleDiv });
+    elementCreate({ tag: "p", content : item.projectTitle, parentElement : titleDiv });
+
+    // slickslider
+    const slick = elementCreate({ tag: "div", className : "post-slider", parentElement : article });
+    elementCreate({ tag: "div", content : "<i class='button fa-solid fa-angle-left'></i>", className : "prev-button", parentElement : slick });
+    elementCreate({ tag: "div", content : "<i class='button fa-solid fa-angle-right'></i>", className : "next-button", parentElement : slick });
+    elementCreate({ tag: "p", content : "<i class='fa-regular fa-images'></i> 페이지 구성", parentElement : slick });
+
+    // slider 이미지박스
+    const slickPost = elementCreate({ tag: "div", className : "post-wrapper", parentElement : slick });
+    // 이미지 추가
+    item.projectCarouselImage.forEach((image) => {
+        // 이미지 박스
+        const post = elementCreate({ tag: "div", className : "post", parentElement : slickPost });
+        // 이미지, 이미지 설명
+        elementCreate({ tag: "img", src : image.src, alt : item.carouselAlt, id : "contain-img", parentElement : post });
+        elementCreate({ tag: "p", content : image.desc, parentElement : post });
+    });
+
+    // url 박스
+    const url = elementCreate({ tag: "p", className : "url", parentElement : article });
+    elementCreate({ tag: "a", content : `<i class="fa-solid fa-anchor"></i> ${item.projectUrl}`,
+        href : item.projectUrl, target : "_blank", parentElement : url });
+
+    // 프로젝트 설명 시작
+    const projectDesc = elementCreate({ tag: "div", className : "project-desc", parentElement : article });
+
+    // 프로젝트 설명 <summary>
+    elementCreate({ tag: "p", content : "Summary <i class='fa-solid fa-thumbtack'></i>", className : "desc-title", parentElement : projectDesc });
+    elementCreate({ tag: "p", content : item.projectSummary, parentElement : projectDesc });
+    // <summary> tech stack
+    elementCreate({ tag: "p", content : "<br /><i class='fa-solid fa-check'></i> Technology Stack", parentElement : projectDesc });
+    // tech stack 이미지
+    const figure = elementCreate({ tag: "figure", parentElement : projectDesc });
+    item.projectTechImage.forEach((techImage) => {
+        elementCreate({ tag: "img", src : techImage.src, alt : techImage.alt, parentElement : figure });
+    });
+    // <summary> 주요 기능
+    elementCreate({ tag: "p", content : "<i class='fa-solid fa-check'></i> 주요 기능<br />", parentElement : projectDesc });
+    elementCreate({ tag: "p", content : item.projectTech, parentElement : projectDesc });
+
+    // -------------------- 구분선 --------------------
+    elementCreate({ tag: "div", parentElement : projectDesc });
+
+    // 프로젝트 설명 <background>
+    elementCreate({ tag: "p", content : "Background <i class='fa-solid fa-thumbtack'></i>", className : "desc-title", parentElement : projectDesc });
+    elementCreate({ tag: "p", content : item.projectBackground, parentElement : projectDesc });
+
+    // -------------------- 구분선 --------------------
+    elementCreate({ tag: "div", parentElement : projectDesc });
+
+    // 프로젝트 설명 <meaning>
+    elementCreate({ tag: "p", content : "Meaning <i class='fa-solid fa-thumbtack'></i>", className : "desc-title", parentElement : projectDesc });
+    elementCreate({ tag: "p", content : item.projectMeaning, parentElement : projectDesc });
+
+    // 최종 추가
+    projectContainer.appendChild(article);
+});

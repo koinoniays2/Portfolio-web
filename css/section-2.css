@@ -38,6 +38,7 @@
 .desc-title {font-size: 1.5rem; padding: 1rem 0;}
 .desc-title > i {color: lightsteelblue; transform: rotate(45deg);}
 .project-desc > p u {color: gray;}
+.project-desc > figure > img {margin-right: 0.25rem;}
 
 @media screen and (min-width: 1024px) {
   #project > .title {font-size: 3rem;}
