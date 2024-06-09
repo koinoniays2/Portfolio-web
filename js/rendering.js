@@ -224,9 +224,9 @@ project.forEach((item, index) => {
     elementCreate({ tag: "p", content : item.projectTime, parentElement : titleDiv});
 
     // slickslider
-    const slick = elementCreate({ tag: "div", className : "post-slider", parentElement : article });
-    elementCreate({ tag: "div", content : "<i class='button fa-solid fa-angle-left'></i>", className : "prev-button", parentElement : slick });
-    elementCreate({ tag: "div", content : "<i class='button fa-solid fa-angle-right'></i>", className : "next-button", parentElement : slick });
+    const slick = elementCreate({ tag: "div", className : `post-slider post-slider-${index + 1}`, parentElement : article });
+    elementCreate({ tag: "div", content : "<i class='button fa-solid fa-angle-left'></i>", className : `prev-button prev-button-${index + 1}`, parentElement : slick });
+    elementCreate({ tag: "div", content : "<i class='button fa-solid fa-angle-right'></i>", className : `next-button next-button-${index + 1}`, parentElement : slick });
     elementCreate({ tag: "p", content : "<i class='fa-regular fa-images'></i> 페이지 구성", parentElement : slick });
 
     // slider 이미지박스

@@ -9,11 +9,14 @@ $(document).ready(function () {
         $("#menu-nav").slideToggle(200);
     });
 // slick
-    $('.post-wrapper').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        prevArrow: $('.prev-button'),
-        nextArrow: $('.next-button'),
+const postWrapper = document.querySelectorAll(".post-wrapper");
+postWrapper.forEach((item, index) => {
+    $(item).slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            prevArrow: $(`.prev-button-${index + 1}`),
+            nextArrow: $(`.next-button-${index + 1}`),
+        });
     });
 });
 // 프로젝트 제목
