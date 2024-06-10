@@ -334,7 +334,7 @@ const project = [
             { "src" : "image/도게더-info.png", "desc" : "◾ [회원정보 수정 페이지]<br /> 13/13"},
         ],
         "carouselAlt" : "Dogether",
-        "projectUrl" : "http://dogether.dothome.co.kr/dogether_php_ver/index.php",
+        "projectUrl" : "http://dogether.dothome.co.kr/dogether_php_ver/",
         "projectSummary" : `반려견 동반이 가능한 시설을 알려주는 목적으로 만들어진 웹 사이트입니다.
                             첫번째 팀 프로젝트인 만큼 <b>php</b>, <b>SNS 연동</b>, <b>Git 협업</b> 등 처음 해 본 것들이 많았던 프로젝트입니다.
                             `,

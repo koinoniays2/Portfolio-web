@@ -1,0 +1,32 @@
+#ask {height: 100vh;}
+#ask .title-section {font-size: 2.5rem;}
+#ask .container {height: 100%; justify-content: center; align-items: center;}
+#ask form {width: 100%; max-width: 768px; padding: 0 1rem; gap: 1rem;
+display: flex; flex-direction: column; align-items: center; justify-content: center;}
+#ask .box-input {width: 100%; display: flex; align-items: center; gap: 1rem;}
+/* #ask .box-input label {flex-basis: 50px;} */
+#ask .box-input input, #ask .box-input textarea {
+    flex-grow: 1;
+    padding: 0.5rem;
+    appearance: none;
+    background-color: transparent;
+    border: 1px solid lightgray; border-radius: 0.5rem;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    line-height: normal;
+    vertical-align: baseline;
+    outline: none;
+    resize: none;
+}
+#ask .box-input textarea {height: 180px;}
+#ask form .box-button {justify-content: flex-end;}
+#ask button {
+    font-size: 1rem; cursor: pointer;
+    padding: 0.5rem 1rem; border-radius: 0.5rem; color: white;
+    margin: 0;
+    border: none;
+    background-color: #8fd3f4;
+}
+#ask .thankyou_message {display: none;}
