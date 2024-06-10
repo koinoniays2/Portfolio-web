@@ -49,8 +49,5 @@
 }
 
 /* 자바스크립트 */
-#project .title > p:nth-child(2), #project .title > p:nth-child(3),
-#project .title > p:nth-child(4), #project .title > p:nth-child(5) 
-{opacity: 0; font-weight: normal;
-  font-size: 1.25rem; color: darkblue; transition: opacity 0.5s ease;}
-#project .title > p:nth-child(3) {display: none;}
+#project .title > p
+{opacity: 0; font-weight: normal; font-size: 1.25rem; color: darkblue; transition: opacity 0.5s ease;}

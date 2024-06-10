@@ -22,45 +22,24 @@ postWrapper.forEach((item, index) => {
 // 프로젝트 제목
 window.addEventListener("load", () => {
     window.addEventListener('scroll', scrollProject);
-})
+});
+
 function scrollProject() {
     const header = document.querySelector("#header");
-    const projectGuild = document.querySelector("#project .project-1");
-    const titleGuild = document.querySelector("#project .title > p:nth-child(2)");
-    const projectDongseo = document.querySelector("#project .project-2");
-    const titleDongseo = document.querySelector("#project .title > p:nth-child(3)");
-    const projectTeam3 = document.querySelector("#project .project-3");
-    const titleTeam3 = document.querySelector("#project .title > p:nth-child(4)");
-    const projectTeam2 = document.querySelector("#project .project-4");
-    const titleTeam2 = document.querySelector("#project .title > p:nth-child(5)");
-
     const headerBottom = header.getBoundingClientRect().bottom;
+    const projects = document.querySelectorAll(".project-content");
+    const titleP = document.querySelector(".title p");
 
-    function titleShow(showProject, hiddenTitle, showTitle) {
-        if (showProject.getBoundingClientRect().top <= headerBottom) {
-            hiddenTitle.style.opacity = "0";
-            hiddenTitle.style.display = "none";
-            showTitle.style.display = "block";
-            setTimeout(() => {
-                showTitle.style.opacity = "1";
-            }, 200);
-        } else {
-            showTitle.style.opacity = "0";
-            showTitle.style.display = "none";
-            hiddenTitle.style.display = "block";
+    projects.forEach((item) => {
+        const title = item.querySelector(".project-title > p:nth-child(2)");
+        if (item.getBoundingClientRect().top <= headerBottom) {
+            titleP.textContent = "";
+            titleP.textContent = title.textContent;
+            titleP.style.opacity = "1";
         };
+    });
+    
+    if(projects[0].getBoundingClientRect().top > headerBottom ) {
+        titleP.style.opacity = "0";
     };
-
-    // 첫번째 프로젝트
-    if (projectGuild.getBoundingClientRect().top <= headerBottom) {
-        setTimeout(() => {
-            titleGuild.style.opacity = "1";
-        }, 300);
-    } else {
-        titleGuild.style.opacity = "0";
-    };
-
-    titleShow(projectDongseo, titleGuild, titleDongseo);
-    titleShow(projectTeam3, titleDongseo, titleTeam3);
-    titleShow(projectTeam2, titleTeam3, titleTeam2);
 };
