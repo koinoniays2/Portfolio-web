@@ -29,8 +29,27 @@ function scrollProject() {
     const titleGuild = document.querySelector("#project .title > p:nth-child(2)");
     const projectDongseo = document.querySelector("#project .project-2");
     const titleDongseo = document.querySelector("#project .title > p:nth-child(3)");
+    const projectTeam3 = document.querySelector("#project .project-3");
+    const titleTeam3 = document.querySelector("#project .title > p:nth-child(4)");
 
     const headerBottom = header.getBoundingClientRect().bottom;
+
+    function titleShow(showProject, hiddenTitle, showTitle) {
+        if (showProject.getBoundingClientRect().top <= headerBottom) {
+            hiddenTitle.style.opacity = "0";
+            hiddenTitle.style.display = "none";
+            showTitle.style.display = "block";
+            setTimeout(() => {
+                showTitle.style.opacity = "1";
+            }, 200);
+        } else {
+            showTitle.style.opacity = "0";
+            showTitle.style.display = "none";
+            hiddenTitle.style.display = "block";
+        };
+    };
+
+    // 첫번째 프로젝트
     if (projectGuild.getBoundingClientRect().top <= headerBottom) {
         setTimeout(() => {
             titleGuild.style.opacity = "1";
@@ -39,16 +58,6 @@ function scrollProject() {
         titleGuild.style.opacity = "0";
     };
 
-    if (projectDongseo.getBoundingClientRect().top <= headerBottom) {
-        titleGuild.style.opacity = "0";
-        titleGuild.style.display = "none";
-        titleDongseo.style.display = "block";
-        setTimeout(() => {
-            titleDongseo.style.opacity = "1";
-        }, 200);
-    } else {
-        titleDongseo.style.opacity = "0";
-        titleDongseo.style.display = "none";
-        titleGuild.style.display = "block";
-    };
-}
+    titleShow(projectDongseo, titleGuild, titleDongseo);
+    titleShow(projectTeam3, titleDongseo, titleTeam3);
+};

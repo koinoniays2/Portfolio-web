@@ -31,7 +31,7 @@
 #contain-img {object-fit: contain;}
 /* ------------------------------ */
 
-.url {padding: 1.5rem 0;}
+.url {padding: 1.5rem 0; text-align: center;}
 .url i {color: darkblue;}
 
 .project-desc {width: 80%; padding: 1rem 1rem; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;}
@@ -49,7 +49,7 @@
 }
 
 /* 자바스크립트 */
-#project .title > p:nth-child(2), #project .title > p:nth-child(3) 
+#project .title > p:nth-child(2), #project .title > p:nth-child(3), #project .title > p:nth-child(4) 
 {opacity: 0; font-weight: normal;
   font-size: 1.25rem; color: darkblue; transition: opacity 0.5s ease;}
 #project .title > p:nth-child(3) {display: none;}
