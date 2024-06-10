@@ -31,6 +31,8 @@ function scrollProject() {
     const titleDongseo = document.querySelector("#project .title > p:nth-child(3)");
     const projectTeam3 = document.querySelector("#project .project-3");
     const titleTeam3 = document.querySelector("#project .title > p:nth-child(4)");
+    const projectTeam2 = document.querySelector("#project .project-4");
+    const titleTeam2 = document.querySelector("#project .title > p:nth-child(5)");
 
     const headerBottom = header.getBoundingClientRect().bottom;
 
@@ -60,4 +62,5 @@ function scrollProject() {
 
     titleShow(projectDongseo, titleGuild, titleDongseo);
     titleShow(projectTeam3, titleDongseo, titleTeam3);
+    titleShow(projectTeam2, titleTeam3, titleTeam2);
 };
