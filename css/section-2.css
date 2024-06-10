@@ -38,7 +38,7 @@
 .project-desc > div {width: 100%; height: 1px; border-bottom: 1px solid lightgray; padding: 1rem 0;}
 .project-desc p {transition: var(--font-transition);}
 .desc-title {font-size: 1.5rem; padding: 1rem 0;}
-.desc-title > i {color: lightsteelblue; transform: rotate(45deg);}
+.desc-title > i {color: lightsteelblue; transform: rotate(45deg); font-size: 1.4rem;}
 .project-desc > p u {color: gray;}
 .project-desc > figure > img {margin-right: 0.25rem;}
 
