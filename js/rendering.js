@@ -1,49 +1,49 @@
 const techStackImage = [
     {
-        "src" : "https://camo.githubusercontent.com/34f331f600819b3b7a20c9629f2db8a3137ad784b69c7151cc8c1d4363558c2d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f48544d4c352d4533344632363f7374796c653d666c61742d737175617265266c6f676f3d48544d4c35266c6f676f436f6c6f723d7768697465",
-        "alt" : "html"
+        "src" : "./image/html5.svg",
+        "alt" : "html5"
     },{
-        "src" : "https://camo.githubusercontent.com/879d60284f8f6a771cc177f7acbb404e9ca48d1c02462b485fb22e7cc5440beb/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f435353332d3135373242363f7374796c653d666c61742d737175617265266c6f676f3d43535333266c6f676f436f6c6f723d7768697465",
+        "src" : "./image/css3.svg",
         "alt" : "css3"
     },{
-        "src" : "https://camo.githubusercontent.com/ce21ebbc314d2b3bdfa0ee55209ec9f6a691d0cd4513f2e00db71fce186fa630/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6176615363726970742d4637444631453f7374796c653d666c61742d737175617265266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d7768697465",
+        "src" : "./image/js.svg",
         "alt" : "javascript"
     },{
-        "src" : "https://camo.githubusercontent.com/603c04d28eb18a75e6b12d602e286ae7cd95b2677e9e2396c80d8cd6c2b11c09/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6a51756572792d3037363961643f7374796c653d666c61742d737175617265266c6f676f3d6a7175657279266c6f676f436f6c6f723d7768697465",
+        "src" : "./image/jquery.svg",
         "alt" : "jquery"
     },{
-        "src" : "https://camo.githubusercontent.com/c86d391bb5b58829613888b06fdde85634be0e4e87eca17817e511051de2e0da/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f52656163742d3631444146423f7374796c653d666c61742d737175617265266c6f676f3d7265616374266c6f676f436f6c6f723d7768697465",
+        "src" : "./image/react.svg",
         "alt" : "react"
     },{
-        "src" : "https://camo.githubusercontent.com/d7d0c4628f95301368b24428328f322e6ef081e711adcc4dd0f2f70a24964e9a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5461696c77696e64204353532d3036423644343f7374796c653d666c61742d737175617265266c6f676f3d7461696c77696e642d637373266c6f676f436f6c6f723d7768697465",
+        "src" : "./image/tailwind.svg",
         "alt" : "tailwindcss"
     },{
-        "src" : "https://camo.githubusercontent.com/d6925f3742651fda3e9cbf2e7ead1adcc347ea84b49eb9faf8af4a7e4195e592/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4669676d612d4632344531453f7374796c653d666c61742d737175617265266c6f676f3d6669676d61266c6f676f436f6c6f723d7768697465",
+        "src" : "./image/figma.svg",
         "alt" : "figma"
     },{
-        "src" : "https://camo.githubusercontent.com/bc10a977b84d2c695fce51e46a7c262ca8b0970216d7d458aed3dbf25d2ac087/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6e6f64652e6a732d3644413535463f7374796c653d666c61742d737175617265266c6f676f3d6e6f64652e6a73266c6f676f436f6c6f723d7768697465",
+        "src" : "./image/nodejs.svg",
         "alt" : "nodejs"
     },{
-        "src" : "https://camo.githubusercontent.com/ba6b8ff7ba7711c6bf7edbfe6a7790f35c0154f0c286f9c75115c4457712f33a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d6f6e676f44422d2532333465613934622e7376673f7374796c653d666c61742d737175617265266c6f676f3d6d6f6e676f6462266c6f676f436f6c6f723d7768697465",
+        "src" : "./image/mongodb.svg",
         "alt" : "mongodb"
     },{
-        "src" : "https://camo.githubusercontent.com/55cd2d916099db5b0c36a9fbb2d3e746f4edc849ca6451d1568cf7d5d58e03c8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f7068702d2532333737374242343f7374796c653d666c61742d737175617265266c6f676f3d706870266c6f676f436f6c6f723d7768697465",
+        "src" : "./image/php.svg",
         "alt" : "php"
     },{
-        "src" : "https://camo.githubusercontent.com/f06e68f289a85eceba504a8edfc3320e49f87a4ee5e1e7f4a80733a0d0715f54/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6d7973716c2d3434373941312e7376673f7374796c653d666c61742d737175617265266c6f676f3d6d7973716c266c6f676f436f6c6f723d7768697465",
+        "src" : "./image/mysql.svg",
         "alt" : "mysql"
     }
 
 ];
 const otherImage = [
     {
-        "src" : "https://camo.githubusercontent.com/7a18a16fa385125431a4c8e21a31c06e0dc138f2f33db42453f4c04a90854d85/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f56657263656c2d3030303030303f7374796c653d666c61742d737175617265266c6f676f3d76657263656c266c6f676f436f6c6f723d7768697465",
+        "src" : "./image/vercel.svg",
         "alt" : "vercel"
     },{
-        "src" : "https://camo.githubusercontent.com/b93e5e204fbd7d7b53c11b99c7d52df84920134d4ecdf66feda74ad57a1617ed/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e65746c6966792d3030633762373f7374796c653d666c61742d737175617265266c6f676f3d6e65746c696679266c6f676f436f6c6f723d7768697465",
+        "src" : "./image/netlify.svg",
         "alt" : "netlify"
     },{
-        "src" : "https://camo.githubusercontent.com/942eff2fc9ad3040caad9c6700f60d61165fe5aea2e0f804a00bc74dd4c24bf4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e6f74696f6e2d2532333030303030302e7376673f7374796c653d666c61742d737175617265266c6f676f3d6e6f74696f6e266c6f676f436f6c6f723d7768697465",
+        "src" : "./image/notion.svg",
         "alt" : "notion"
     }
 ]
@@ -85,19 +85,19 @@ const project = [
                             <b>React</b> 라이브러리와 <b>TailwindCSS</b>를 사용하여 아이디어를 실현할 수 있었던 의미있는 1인 프로젝트였습니다.`,
         "projectTechImage" : [
             {
-                "src" : "https://camo.githubusercontent.com/c86d391bb5b58829613888b06fdde85634be0e4e87eca17817e511051de2e0da/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f52656163742d3631444146423f7374796c653d666c61742d737175617265266c6f676f3d7265616374266c6f676f436f6c6f723d7768697465",
+                "src" : "./image/react.svg",
                 "alt" : "react"
             },{
-                "src" : "https://camo.githubusercontent.com/745921108801486cf05b0e607348fea607addf8594e4d7282ac3335db151dbfc/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5265616374253230486f6f6b253230466f726d2d2532334543353939302e7376673f7374796c653d666c61742d737175617265266c6f676f3d7265616374686f6f6b666f726d266c6f676f436f6c6f723d7768697465",
+                "src" : "./image/reacthookform.svg",
                 "alt" : "react-hook-form"
             },{
-                "src" : "https://camo.githubusercontent.com/f071d9d118c66aeec7de44b5639c3912e0a586202ff5adedd55f352185733eab/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d526561637425323051756572792d4646343135343f7374796c653d666c61742d737175617265266c6f676f3d72656163742532307175657279266c6f676f436f6c6f723d7768697465",
+                "src" : "./image/reactquery.svg",
                 "alt" : "react-query"
             },{
-                "src" : "https://camo.githubusercontent.com/ea45f82c33786cda2cb45b5d4f9a47f721aa479ed0fc3e28a1893c168a39f03f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f52656163745f526f757465722d4341343234353f7374796c653d666c61742d737175617265266c6f676f3d72656163742d726f75746572266c6f676f436f6c6f723d7768697465",
+                "src" : "./image/reactrouter.svg",
                 "alt" : "react-router"
             },{
-                "src" : "https://camo.githubusercontent.com/d7d0c4628f95301368b24428328f322e6ef081e711adcc4dd0f2f70a24964e9a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5461696c77696e64204353532d3036423644343f7374796c653d666c61742d737175617265266c6f676f3d7461696c77696e642d637373266c6f676f436f6c6f723d7768697465",
+                "src" : "./image/tailwind.svg",
                 "alt" : "tailwindcss"
             }
         ],
@@ -117,18 +117,18 @@ const project = [
                         고래 길드에 대한 정보와 길드원들의 정보를 바로 볼 수 있도록 하여 보다 효율적인 <b>길드 홍보</b>를 위해 제작하였습니다.`,
         "projectMeaning" : `React로 처음 프로젝트를 진행해 본 경험은 정말 의미 있는 시간이었습니다.
                         그중 인상 깊었던 것은 React의 기능들 중 <b>React Hooks</b>를 이용해 효율적으로 상태관리를 하는 것이었습니다.
-                        메일 보내기 기능을 구현할 때 <img src="https://camo.githubusercontent.com/745921108801486cf05b0e607348fea607addf8594e4d7282ac3335db151dbfc/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5265616374253230486f6f6b253230466f726d2d2532334543353939302e7376673f7374796c653d666c61742d737175617265266c6f676f3d7265616374686f6f6b666f726d266c6f676f436f6c6f723d7768697465" alt="react-hook-form" /> 
+                        메일 보내기 기능을 구현할 때 <img src="./image/reacthookform.svg" alt="react-hook-form" /> 
                         라이브러리의 <b>useForm</b> 훅을 사용하여 Form 데이터의 유효성 검사를 간편하게 처리할 수 있었던 점과
-                        API와 상호작용하기 위해 썼던 <img src="https://camo.githubusercontent.com/f071d9d118c66aeec7de44b5639c3912e0a586202ff5adedd55f352185733eab/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d526561637425323051756572792d4646343135343f7374796c653d666c61742d737175617265266c6f676f3d72656163742532307175657279266c6f676f436f6c6f723d7768697465" alt="react-query" /> 
+                        API와 상호작용하기 위해 썼던 <img src="./image/reactquery.svg" alt="react-query" /> 
                         라이브러리의 <b>useQuery</b> 훅으로 데이터를 가져와 사용할 수 있었던 것이 가장 인상 깊었습니다.
                         <br /><br />
                         넥슨 메이플스토리 API는 캐릭터의 정보를 가져오기 위해 해당 캐릭터의 고유 id를 API에서 가져온 후, 그 고유 id를 다른 API에 전달하여 쓰도록 되어있는데
-                        이 부분에서 어려움을 겪었으나 라우팅을 관리하기 위한 라이브러리인 <img src="https://camo.githubusercontent.com/ea45f82c33786cda2cb45b5d4f9a47f721aa479ed0fc3e28a1893c168a39f03f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f52656163745f526f757465722d4341343234353f7374796c653d666c61742d737175617265266c6f676f3d72656163742d726f75746572266c6f676f436f6c6f723d7768697465" alt="react-router" />
+                        이 부분에서 어려움을 겪었으나 라우팅을 관리하기 위한 라이브러리인 <img src="./image/reactrouter.svg" alt="react-router" />
                         에서 제공하는 <b>Link</b> 컴포넌트를 사용해 URL에 고유 id를 전달하고,
                         <b>useParams</b> 훅을 이용해 URL에 전달된 데이터를 추출하여 <b>useQurey</b> 훅의 기능인 쿼리 키에 값을 동적으로 설정하여 API 요청을 보내는
                         것으로 해결하였습니다. 덕분에 이번 프로젝트는 React의 개념을 다시 한번 잡을 수 있었던 계기가 되었습니다.
                         <br /><br />
-                        다음으로 <img src="https://camo.githubusercontent.com/d7d0c4628f95301368b24428328f322e6ef081e711adcc4dd0f2f70a24964e9a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5461696c77696e64204353532d3036423644343f7374796c653d666c61742d737175617265266c6f676f3d7461696c77696e642d637373266c6f676f436f6c6f723d7768697465" alt="tailwindcss">
+                        다음으로 <img src="./image/tailwind.svg" alt="tailwindcss">
                         와 React를 함께 사용한 경험은 매우 편리하였고 생산성을 높여주었습니다.
                         CSS 파일을 작성하지 않고 클래스를 사용하여 원하는 디자인 요소를 적용할 수 있었던 점과,
                         반응형 웹을 구현할 때 sm, md, lg, xl 등의 키워드를 통해 간편하게 적용할 수 있었던 점이 저에게는 굉장히 매력적으로 느껴졌습니다.
@@ -156,19 +156,19 @@ const project = [
                             <b>GSAP</b> 라이브러리와 <b>jquery</b>를 사용하여 아이디어를 실현할 수 있었던 의미있는 1인 프로젝트였습니다.`,
         "projectTechImage" : [
             {
-                "src" : "https://camo.githubusercontent.com/34f331f600819b3b7a20c9629f2db8a3137ad784b69c7151cc8c1d4363558c2d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f48544d4c352d4533344632363f7374796c653d666c61742d737175617265266c6f676f3d48544d4c35266c6f676f436f6c6f723d7768697465",
+                "src" : "./image/html5.svg",
                 "alt" : "html"
             },{
-                "src" : "https://camo.githubusercontent.com/879d60284f8f6a771cc177f7acbb404e9ca48d1c02462b485fb22e7cc5440beb/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f435353332d3135373242363f7374796c653d666c61742d737175617265266c6f676f3d43535333266c6f676f436f6c6f723d7768697465",
+                "src" : "./image/css3.svg",
                 "alt" : "css3"
             },{
-                "src" : "https://camo.githubusercontent.com/ce21ebbc314d2b3bdfa0ee55209ec9f6a691d0cd4513f2e00db71fce186fa630/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6176615363726970742d4637444631453f7374796c653d666c61742d737175617265266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d7768697465",
+                "src" : "./image/js.svg",
                 "alt" : "javascript"
             },{
-                "src" : "https://camo.githubusercontent.com/603c04d28eb18a75e6b12d602e286ae7cd95b2677e9e2396c80d8cd6c2b11c09/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6a51756572792d3037363961643f7374796c653d666c61742d737175617265266c6f676f3d6a7175657279266c6f676f436f6c6f723d7768697465",
+                "src" : "./image/jquery.svg",
                 "alt" : "jquery"
             },{
-                "src" : "https://camo.githubusercontent.com/d6925f3742651fda3e9cbf2e7ead1adcc347ea84b49eb9faf8af4a7e4195e592/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4669676d612d4632344531453f7374796c653d666c61742d737175617265266c6f676f3d6669676d61266c6f676f436f6c6f723d7768697465",
+                "src" : "./image/figma.svg",
                 "alt" : "figma"
             }
         ],
@@ -186,7 +186,7 @@ const project = [
                             자바스크립트만으로는 어려운 스크롤 위치에 따른 복잡한 애니메이션 구현을 GSAP의 플러그인인 <b>ScrollTrigger</b>로 빠르고 쉽게 할 수 있었고,
                             GSAP의 <b>timeline()</b> 메서드를 이용해 연속적인 애니메이션 구현을 할 수 있었습니다.<br /><br />
                         
-                            그리고 헤더와 푸터를 별도의 HTML 파일로 만들고, <img src="https://camo.githubusercontent.com/603c04d28eb18a75e6b12d602e286ae7cd95b2677e9e2396c80d8cd6c2b11c09/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6a51756572792d3037363961643f7374796c653d666c61742d737175617265266c6f676f3d6a7175657279266c6f676f436f6c6f723d7768697465" alt="jquery" />
+                            그리고 헤더와 푸터를 별도의 HTML 파일로 만들고, <img src="./image/jquery.svg" alt="jquery" />
                             를 사용하여 서브페이지에 동적으로 삽입하는 <b>모듈화 기능</b>을 처음 경험한 프로젝트입니다. 이를 통해 웹사이트의 구성 요소를 더욱 효율적으로 관리하고, 유지보수를 용이하게 할 수 있었습니다.<br /><br />
                             
                             이번 프로젝트를 통해 반응형 웹의 개념과 그리드 설계의 중요성을 깨달았고 새로운 라이브러리를 배워 적용하는 과정에서 성취감을 느낄 수 있었습니다.
@@ -212,25 +212,25 @@ const project = [
                             <b>ejs</b>를 처음 사용해본 것이 큰 의미가 있었고, <b>Node.js</b>를 이용해 서버를 구축해보며 서버와 클라이언트 간의 상호작용을 이해할 수 있었습니다.`,
         "projectTechImage" : [
             {
-                "src" : "https://camo.githubusercontent.com/34f331f600819b3b7a20c9629f2db8a3137ad784b69c7151cc8c1d4363558c2d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f48544d4c352d4533344632363f7374796c653d666c61742d737175617265266c6f676f3d48544d4c35266c6f676f436f6c6f723d7768697465",
+                "src" : "./image/html5.svg",
                 "alt" : "html"
             },{
-                "src" : "https://camo.githubusercontent.com/879d60284f8f6a771cc177f7acbb404e9ca48d1c02462b485fb22e7cc5440beb/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f435353332d3135373242363f7374796c653d666c61742d737175617265266c6f676f3d43535333266c6f676f436f6c6f723d7768697465",
+                "src" : "./image/css3.svg",
                 "alt" : "css3"
             },{
-                "src" : "https://camo.githubusercontent.com/ce21ebbc314d2b3bdfa0ee55209ec9f6a691d0cd4513f2e00db71fce186fa630/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6176615363726970742d4637444631453f7374796c653d666c61742d737175617265266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d7768697465",
+                "src" : "./image/js.svg",
                 "alt" : "javascript"
             },{
-                "src" : "https://camo.githubusercontent.com/bc10a977b84d2c695fce51e46a7c262ca8b0970216d7d458aed3dbf25d2ac087/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6e6f64652e6a732d3644413535463f7374796c653d666c61742d737175617265266c6f676f3d6e6f64652e6a73266c6f676f436f6c6f723d7768697465",
+                "src" : "./image/nodejs.svg",
                 "alt" : "node.js"
             },{
-                "src" : "https://camo.githubusercontent.com/c8b95b3efc1e55fb968cc1d2ba3933a5bcb10c679becc4ab62069b2bf7b06631/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f616e64726f696425323073747564696f2d3334366163313f7374796c653d666c61742d737175617265266c6f676f3d616e64726f696425323073747564696f266c6f676f436f6c6f723d7768697465",
-                "alt" : "android studio"
-            },{
-                "src" : "https://camo.githubusercontent.com/f06e68f289a85eceba504a8edfc3320e49f87a4ee5e1e7f4a80733a0d0715f54/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6d7973716c2d3434373941312e7376673f7374796c653d666c61742d737175617265266c6f676f3d6d7973716c266c6f676f436f6c6f723d7768697465",
+                "src" : "./image/mysql.svg",
                 "alt" : "mysql"
             },{
-                "src" : "https://camo.githubusercontent.com/28e3047bbee98a4f981c1dc8a96cb849e38c0370b5157a883922a654ce3fca43/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f66697265626173652d6130383032313f7374796c653d666c61742d737175617265266c6f676f3d6669726562617365266c6f676f436f6c6f723d666663643334",
+                "src" : "./image/androidstudio.svg",
+                "alt" : "android studio"
+            },{
+                "src" : "./image/firebase.svg",
                 "alt" : "firebase"
             }
         ],
@@ -248,11 +248,11 @@ const project = [
 
                             저는 <b>백엔드 개발</b>을 맡게 되었는데, 그 과정에서 <b>DB설계 및 구축</b>을 한 경험이 인상깊었습니다. 
                             무료로 DB서버를 제공하는 곳을 찾아 보다가 구글 클라우드 DB를 알게되고, 실제로 인스턴스를 생성하여 사용해보았습니다.
-                            생성된 인스턴스의 IP주소를 이용해 직접 만든 DB서버에 <img src="https://camo.githubusercontent.com/f06e68f289a85eceba504a8edfc3320e49f87a4ee5e1e7f4a80733a0d0715f54/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6d7973716c2d3434373941312e7376673f7374796c653d666c61742d737175617265266c6f676f3d6d7973716c266c6f676f436f6c6f723d7768697465" alt="mysql" /> WorkBench
+                            생성된 인스턴스의 IP주소를 이용해 직접 만든 DB서버에 <img src="./image/mysql.svg" alt="mysql" /> WorkBench
                             를 통해 연결했을 때의 쾌감은 잊지 못할 경험입니다.
-                            그리고 <img src="https://camo.githubusercontent.com/28e3047bbee98a4f981c1dc8a96cb849e38c0370b5157a883922a654ce3fca43/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f66697265626173652d6130383032313f7374796c653d666c61742d737175617265266c6f676f3d6669726562617365266c6f676f436f6c6f723d666663643334" alt="firebase" /> 스토리지를 
+                            그리고 <img src="./image/firebase.svg" alt="firebase" /> 스토리지를 
                             이용하여 이미지를 업로드하고 가져와 프로필 사진을 변경하는 기능도 만들어볼 수 있었던 기회였으며
-                            <img src="https://camo.githubusercontent.com/c8b95b3efc1e55fb968cc1d2ba3933a5bcb10c679becc4ab62069b2bf7b06631/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f616e64726f696425323073747564696f2d3334366163313f7374796c653d666c61742d737175617265266c6f676f3d616e64726f696425323073747564696f266c6f676f436f6c6f723d7768697465" alt="android studio" />
+                            <img src="./image/androidstudio.svg" alt="android studio" />
                             를 사용하여 실제 어플리케이션을 휴대폰에 설치하고 직접적인 결과물을 볼 수 있었던 것이 흥미로웠고 의미 있는 시간이었습니다.<br /><br />
                             두번째 팀 프로젝트에 이어 또 한번 백엔드 개발을 맡았는데, 여전히 어렵고 학습해야 할 지식이 많다는 부담감을 느꼈지만 그럼에도 불구하고 얻는 성취감과 뿌듯함은
                             이 분야가 충분히 매력적이고 개발에 대한 동기부여를 높여준다는 것을 다시 한번 느끼게 되었습니다.
@@ -280,14 +280,14 @@ const project = [
                             `,
         "projectTechImage" : [
             {
-                "src" : "https://camo.githubusercontent.com/c86d391bb5b58829613888b06fdde85634be0e4e87eca17817e511051de2e0da/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f52656163742d3631444146423f7374796c653d666c61742d737175617265266c6f676f3d7265616374266c6f676f436f6c6f723d7768697465",
+                "src" : "./image/react.svg",
                 "alt" : "react"
             },
             {
-                "src" : "https://camo.githubusercontent.com/b4aadaac598b450eba2f8c27fbc898ebdba301af54d3b426978e0fa564ef273e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e6578742d626c61636b3f7374796c653d666c61742d737175617265266c6f676f3d6e6578742e6a73266c6f676f436f6c6f723d7768697465",
+                "src" : "./image/nextjs.svg",
                 "alt" : "next.js"
             },{
-                "src" : "https://camo.githubusercontent.com/f06e68f289a85eceba504a8edfc3320e49f87a4ee5e1e7f4a80733a0d0715f54/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6d7973716c2d3434373941312e7376673f7374796c653d666c61742d737175617265266c6f676f3d6d7973716c266c6f676f436f6c6f723d7768697465",
+                "src" : "./image/mysql.svg",
                 "alt" : "mysql"
             }
         ],
@@ -298,12 +298,12 @@ const project = [
         "projectBackground" : `플리마켓은 벼룩시장이라는 뜻도 있지만 최근의 플리마켓은 free와 혼용되어 임시장터 느낌으로 열리고 있습니다. 
                             하지만 플리마켓이 언제 진행되는지, 어디서 진행되는지에 대한 정보의 부족함과 더불어 여러 셀러들이 나오고 길거리에서 진행되는 경우가 많기 때문에 CS 서비스에 불편함을 겪는 고객이 많습니다.
                             이러한 점들을 해소하고, 고객뿐만 아니라 플리마켓에 참여를 원하는 셀러들을 위해 빠른 참가신청 및 일정 안내를 도와주기 위한 Street Market이라는 가상의 회사가 있다고 가정하고 만든 랜딩페이지입니다.<br /><br />`,
-        "projectMeaning" : `<img src="https://camo.githubusercontent.com/c86d391bb5b58829613888b06fdde85634be0e4e87eca17817e511051de2e0da/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f52656163742d3631444146423f7374796c653d666c61742d737175617265266c6f676f3d7265616374266c6f676f436f6c6f723d7768697465" alt="react" />
-                            의 프레임워크인 <img src="https://camo.githubusercontent.com/b4aadaac598b450eba2f8c27fbc898ebdba301af54d3b426978e0fa564ef273e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e6578742d626c61636b3f7374796c653d666c61742d737175617265266c6f676f3d6e6578742e6a73266c6f676f436f6c6f723d7768697465" alt="next.js" />
+        "projectMeaning" : `<img src="./image/react.svg" alt="react" />
+                            의 프레임워크인 <img src="./image/nextjs.svg" alt="next.js" />
                             를 처음 사용해 본 프로젝트입니다. 여기서 저는 백엔드 개발을 맡았는데, 랜딩페이지이기 때문에 백엔드의 기능이 많이 들어가진 않았지만 새로운 도전이었기에 이해를 하는 것부터 고비가 많았습니다.
                             먼저, 프레임워크이기 때문에 디렉토리의 구조에 맞게 작성을 해야 된다는 것이 편하지만 어쩌면 진입장벽이 있기도 했습니다. 
                             next.js는 폴더가 경로가 된다는 점에서 편리함이 있지만, api를 제작하는 데에 있어 어려움을 겪었습니다.
-                            이번 프로젝트에서 <img src="https://camo.githubusercontent.com/b4aadaac598b450eba2f8c27fbc898ebdba301af54d3b426978e0fa564ef273e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e6578742d626c61636b3f7374796c653d666c61742d737175617265266c6f676f3d6e6578742e6a73266c6f676f436f6c6f723d7768697465" alt="next.js" /> 13 버전 부터
+                            이번 프로젝트에서 <img src="./image/nextjs.svg" alt="next.js" /> 13 버전 부터
                             출시 된 <b>app router</b> 방식을 사용하였는데 이전의 page router 방식에 비해 비교적 최신 방식이라 정보가 부족하고 찾기가 힘들어 많이 헤매기도 했습니다.
                             하지만 강의를 들으며 기초를 하나씩 쌓아갔고 <b>Client Side Rendering</b>과 <b>Sever Side Rendering</b> 그리고 <b>Hydration</b>이라는 새로운 개념들을 알게 되었으며
                             결국 POST 요청에 성공하여 사용자 정보를 DB에 저장하고 알림톡을 전송하는 데 성공했을 때는 그 어느 때보다 큰 기쁨을 느꼈습니다.<br /><br />
@@ -340,20 +340,20 @@ const project = [
                             `,
         "projectTechImage" : [
             {
-                "src" : "https://camo.githubusercontent.com/55cd2d916099db5b0c36a9fbb2d3e746f4edc849ca6451d1568cf7d5d58e03c8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f7068702d2532333737374242343f7374796c653d666c61742d737175617265266c6f676f3d706870266c6f676f436f6c6f723d7768697465",
+                "src" : "./image/php.svg",
                 "alt" : "php"
             },
             {
-                "src" : "https://camo.githubusercontent.com/34f331f600819b3b7a20c9629f2db8a3137ad784b69c7151cc8c1d4363558c2d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f48544d4c352d4533344632363f7374796c653d666c61742d737175617265266c6f676f3d48544d4c35266c6f676f436f6c6f723d7768697465",
+                "src" : "./image/html5.svg",
                 "alt" : "html"
             },{
-                "src" : "https://camo.githubusercontent.com/879d60284f8f6a771cc177f7acbb404e9ca48d1c02462b485fb22e7cc5440beb/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f435353332d3135373242363f7374796c653d666c61742d737175617265266c6f676f3d43535333266c6f676f436f6c6f723d7768697465",
+                "src" : "./image/css3.svg",
                 "alt" : "css"
             },{
-                "src" : "https://camo.githubusercontent.com/ce21ebbc314d2b3bdfa0ee55209ec9f6a691d0cd4513f2e00db71fce186fa630/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6176615363726970742d4637444631453f7374796c653d666c61742d737175617265266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d7768697465",
+                "src" : "./image/js.svg",
                 "alt" : "javascript"
             },{
-                "src" : "https://camo.githubusercontent.com/f06e68f289a85eceba504a8edfc3320e49f87a4ee5e1e7f4a80733a0d0715f54/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6d7973716c2d3434373941312e7376673f7374796c653d666c61742d737175617265266c6f676f3d6d7973716c266c6f676f436f6c6f723d7768697465",
+                "src" : "./image/mysql.svg",
                 "alt" : "mysql"
             }
         ],
@@ -372,13 +372,13 @@ const project = [
                             저는 <b>프론트엔드와 백엔드 개발</b>을 맡게 되었는데 이번 프로젝트에서는 하나의 API가 아닌 여러 개의 API를 사용했습니다. 
                             그 중 카페, 미술관, 동물병원, 미용실 등 다양한 시설이 포함된 API가 있었습니다. 이를 나누고 렌더링과 API 호출 시 중복 코드를 방지하기 위해 함수를 만드는 데 집중했습니다.
                             덕분에 코드 재사용에 대한 중요성과 효율성을 느꼈으며 함수를 사용하는 것에 한걸음 더 가까워진 기분이 들었습니다.<br /><br />
-                            <img src="https://camo.githubusercontent.com/55cd2d916099db5b0c36a9fbb2d3e746f4edc849ca6451d1568cf7d5d58e03c8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f7068702d2532333737374242343f7374796c653d666c61742d737175617265266c6f676f3d706870266c6f676f436f6c6f723d7768697465" alt="php" />를 처음 사용해보면서
-                            <img src="https://camo.githubusercontent.com/ce21ebbc314d2b3bdfa0ee55209ec9f6a691d0cd4513f2e00db71fce186fa630/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6176615363726970742d4637444631453f7374796c653d666c61742d737175617265266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d7768697465" alt="javascript" />와 문법을 비교해보았으며
-                            <img src="https://camo.githubusercontent.com/55cd2d916099db5b0c36a9fbb2d3e746f4edc849ca6451d1568cf7d5d58e03c8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f7068702d2532333737374242343f7374796c653d666c61742d737175617265266c6f676f3d706870266c6f676f436f6c6f723d7768697465" alt="php" />코드가
-                            <img src="https://camo.githubusercontent.com/34f331f600819b3b7a20c9629f2db8a3137ad784b69c7151cc8c1d4363558c2d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f48544d4c352d4533344632363f7374796c653d666c61742d737175617265266c6f676f3d48544d4c35266c6f676f436f6c6f723d7768697465" alt="html">파일 내에 
+                            <img src="./image/php.svg" alt="php" />를 처음 사용해보면서
+                            <img src="./image/js.svg" alt="javascript" />와 문법을 비교해보았으며
+                            <img src="./image/php.svg" alt="php" />코드가
+                            <img src="./image/html5.svg" alt="html">파일 내에 
                             삽입되어 동적인 웹 페이지를 생성할 수 있는 점이 매력적으로 다가왔습니다.
-                            이전에는 <img src="https://camo.githubusercontent.com/ce21ebbc314d2b3bdfa0ee55209ec9f6a691d0cd4513f2e00db71fce186fa630/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6176615363726970742d4637444631453f7374796c653d666c61742d737175617265266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d7768697465" alt="javascript" />에서
-                            함수를 주로 사용하였지만 <img src="https://camo.githubusercontent.com/55cd2d916099db5b0c36a9fbb2d3e746f4edc849ca6451d1568cf7d5d58e03c8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f7068702d2532333737374242343f7374796c653d666c61742d737175617265266c6f676f3d706870266c6f676f436f6c6f723d7768697465" alt="php" />로
+                            이전에는 <img src="./image/js.svg" alt="javascript" />에서
+                            함수를 주로 사용하였지만 <img src="./image/php.svg" alt="php" />로
                             <b>SNS 연동</b>을 구현 하면서 <b>class</b>를 사용하게 되었습니다. 이 과정에서 생소함과 어려움을 느끼게 되었지만, 더 깊이 공부하고 싶은 열정이 생겼습니다.
                             그리고 하나의 프로젝트 내에서 클라이언트 요청을 처리하는 서버 파일을 직접 코딩한 경험은 백엔드 개발에 대한 흥미를 더욱 높일 수 있었습니다.<br /><br />
                             또한, <b>dothome</b>에서 제공하는 서버와 DB를 사용하여 호스팅하는 동안, 로컬 환경에서 서버로 파일을 이동할 때 요청 주소를 변경해야 하는 번거로움이 있었습니다.
